@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Conn OLE EDRStage"
+  DTS:DTSID="{37397D6A-4E8E-4F8A-82B8-1FFAB69F9BAA}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::ConnOLEEDRStage_ConnectionString]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="Password">@[$Project::ConnOLEEDRStage_Password]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Retain="True"
+      DTS:ConnectionString="Data Source=EOE-PR-DB-W001;User ID=PR_ETL_USER;Initial Catalog=EDRStage;Provider=SQLNCLI11.1;Persist Security Info=True;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAf2Z+l8WX8EKBGyt8WMATiwAAAAACAAAAAAADZgAAwAAAABAAAAA1107gg0ikHXxAO7/11aVoAAAAAASAAACgAAAAEAAAAPMmF2pABeH0Mxw/+tNax5eAAAAAgwxbh8HOfrOPgUWKCZCNWj0hbWqruuyYvasFRTicSzAzWa+45UWWZFh7asll4JuGphGmnnPI2A3CC8nQpc6+OioftsOp2FX3sgG+00/rRYXP0O7CDWNNHXC61kyvo/zB2f8Aks824yZUQqMl5pKA3J8OW1j3L9sVYqC3e0JHcfIUAAAALwFQbV9cq4GYMUHEFYjVQ0yaRA0=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

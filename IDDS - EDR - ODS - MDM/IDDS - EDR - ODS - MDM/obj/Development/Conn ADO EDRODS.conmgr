@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Conn ADO EDRODS"
+  DTS:DTSID="{893922BC-222C-4B12-9228-97EF1FD25876}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::ConnADOEDRODSConnectionString]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="Password">@[$Project::ConnADOEDRODSPassword]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=EOE-PR-DB-W001.cs.govt.state.ma.us;User ID=PR_ETL_USER;Initial Catalog=EDRODS;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALTjTni+sWUiKKpSHbufJaQAAAAACAAAAAAADZgAAwAAAABAAAABg9x/ambupy7VckbuGoeuSAAAAAASAAACgAAAAEAAAANhSmBRO8dZ7080XW5+8URFwAAAADHJJKKoSV9tHestzO4vmYSmac6JDH30PJaAl3OFqUwXpJWhquvpUQqt1i5hTAmNKzPBbh2cUzVO45cU7f+X5lDvBK/WkN5HJyatD4X0Xm98XwIHYApMM30YRF0p37fKnxfyEz0Eb5yFqtvWQKeYhlRQAAAAixwj8FmuMbPP7KNacp5m/3mwMhw==</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
