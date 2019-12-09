@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Conn ADO EDRStage"
+  DTS:DTSID="{19F33822-6263-4A41-9E6C-5D5E845E31B0}"
+  DTS:CreationName="ADO.NET:SQL">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::ConnADOEDRStage_ConnectionString]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="Password">@[$Project::ConnADOEDRStage_Password]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=EOE-DV-DB-W001;Initial Catalog=EDRStage;Integrated Security=True;Application Name=SSIS-Load XXX-SYSTEM-TABLE into EDRStage-{19F33822-6263-4A41-9E6C-5D5E845E31B0}EOE-DV-DB-W001.EDRStage1;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

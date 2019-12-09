@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Conn SSISRunTimeMetrics"
+  DTS:DTSID="{DC74E57B-4FF2-4540-B358-BC40ADBCC833}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::ConnSSISRunTimeMetrics_ConnectionString]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="Password">@[$Project::ConnSSISRunTimeMetrics_Password]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=EOE-PR-DB-W001.cs.govt.state.ma.us;User ID=PR_ETL_USER;Initial Catalog=SSISRunTimeMetrics;Provider=SQLNCLI11.1;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALTjTni+sWUiKKpSHbufJaQAAAAACAAAAAAADZgAAwAAAABAAAADLtUOs7NSCaufWOxOgaHVhAAAAAASAAACgAAAAEAAAAM7drbhVakOi5le7Hly27K1wAAAARP7lgRBuIr2drLlTq1NkVKIRGcWoK7ksOM39Q+hfakelpeGLM2ubmz8COXNU+HAr60aJk3QyfsIHlfx8SYbarOfNDg5r/1XLXUeEh0UsWpfpFOrgbyIzFFukHv+mayuYNnIyjhHZ222m65jtJ6iaxhQAAADjiz/cL3GcTFvz2WzyDJwICjgylA==</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
