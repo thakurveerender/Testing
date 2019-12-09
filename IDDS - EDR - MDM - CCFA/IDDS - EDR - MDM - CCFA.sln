@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "IDDS - EDR - MDM - CCFA", "IDDS - EDR - MDM - CCFA\IDDS - EDR - MDM - CCFA.dtproj", "{B9A01B55-5EEB-4F45-93C7-165C657FB65C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9A01B55-5EEB-4F45-93C7-165C657FB65C}.Development|Default.ActiveCfg = Development
+		{B9A01B55-5EEB-4F45-93C7-165C657FB65C}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {853B7155-DCAA-4A1B-879E-F6D29289F093}
+	EndGlobalSection
+EndGlobal
