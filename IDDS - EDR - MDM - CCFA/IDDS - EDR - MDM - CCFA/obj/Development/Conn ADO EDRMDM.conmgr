@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Conn ADO EDRMDM"
+  DTS:DTSID="{893922BC-222C-4B12-9228-97EF1FD25876}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::Conn_EDRMDM_ETL_ConnectionString]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="Password">@[$Project::Conn_EDRMDM_ETL_Password]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=EOE-DV-DB-W001.msd.govt.state.ma.us;User ID=DEV_ETL_USER;Initial Catalog=EDRMDM_ETL;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABVrr3HXGxkuq9nzWVuRukAAAAAACAAAAAAADZgAAwAAAABAAAACdf58WrPLzM2Mw7KiYqxrvAAAAAASAAACgAAAAEAAAAOerZXWCGEu+3HYvGpN7B4iAAAAAGk/TvMSwhKuFBzLl1hgqyQK82Izc/WZxR6B7iIYMM9HvZNnLtVIkJd5aH0JVRclbPsg/mEdikqOjci7c0VSRETCscE5cB9E0THhSmSKUQkEEcXQCn5G9JqlWRfPfxs+Gu1ioxJ4AHplQXPFDFXgR3ulH5mJPOavbJMTz3VPsgC4UAAAALerXrO4wmblXGeeW96TGRTEp84E=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
